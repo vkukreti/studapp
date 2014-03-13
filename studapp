@@ -1,0 +1,4 @@
+create database studapp;
+
+grant all on studapp.* to u@'%' identified by 'pw';
+flush privileges;
